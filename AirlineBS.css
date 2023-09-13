@@ -1,0 +1,205 @@
+
+
+  /* Main page */
+.wrapper
+{
+    width: 1100px;
+    margin: auto;
+   
+}
+.nav-area
+{
+    float: right;
+    list-style: none;
+    margin-top: -140px;
+    padding-right:-50px;
+    margin-right: -100px;
+    
+}
+.nav-area li
+{
+    display: inline-block;
+}
+.nav-area li a
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 20px;
+}
+.nav-area li a:hover
+{
+    border: none;
+    color: rgb(11, 200, 243);
+}
+.logo img
+{
+    width: 250px;
+    float: left;
+    padding-left: 5%;
+    padding-top: 2%;
+    filter: invert(100);
+    margin-top: -200px;
+    margin-left: -110px;
+    
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+   
+}
+.backvideo
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    margin-top: 225px; 
+    
+    width: 100vh; 
+    display: flex;
+    background-size: cover;
+    
+}
+@media (min-aspect-ratio: 16/9)
+{
+    .backvideo
+    {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9)
+{
+    .backvideo
+    {
+        width: auto;
+        height: 100%;
+    }
+}
+.booking-form-box
+{
+    max-width: 450px;
+    border: 1px solid #ced4da;
+    margin: 10% auto 0;
+    display: block;
+    
+    
+    
+    
+}
+.radio-btn
+{
+    margin: 5px 50px;
+
+}
+.radio-btn .btn
+{
+    margin: 10px 10px 20px 0;
+    box-shadow: none;
+}
+.radio-btn .btn::after
+{
+    content: '';
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left: -1px;
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    border: 3px solid #fff;
+    visibility: visible;
+    border-radius: 50%;
+
+}
+.radio-btn .btn:checked::after
+{
+    content: '';
+    background-color: rgb(1, 1, 1);
+    transition: 0.5s;
+
+}
+.radio-btn span
+{
+    color: #fff;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.booking-form
+{
+    color: aqua;
+    padding: 10px 20px 20px;
+    
+}
+.booking-form label
+{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #fff;
+
+}
+.input::placeholder
+{
+    color: #fff !important;
+}
+.input-grp
+{
+    width: 201px;
+    display: inline-block;
+    color: aqua;
+    
+}
+.form-control
+{
+    font-size: 12px !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.select-date::-webkit-inner-spin-button,
+.select-date::-webkit-outer-spin-button
+{
+    
+    margin: 10;
+}
+.select-date.select-date::-webkit-calender-picker-indicator
+{
+    background:transparent !important ;
+}
+.custom-select
+{
+    color: #fff !important;
+    font-size: 15px !important;
+    border: 1px solid #ced4da !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+
+}
+.custom-select option
+{
+    color: #333;
+}
+.flight
+{
+    width: 100%;
+    padding: 9px 0;
+    font-size: 12px;
+    border: 1px solid #ced4da !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+.flight:hover
+{
+    background: #fff !important;
+    color: #000 !important;
+    transition: 0.5s;
+}
